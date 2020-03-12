@@ -77,6 +77,15 @@ ul {
   opacity: 0.9;
 }
 
+.dark {
+  color: #fff;
+}
+
+.dark .btn {
+  background: #f4f4f4;
+  color: #333;
+}
+
 /* Showcase */
 .showcase {
   width: 100%;
@@ -137,4 +146,40 @@ ul {
   height: 350px;
   background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center
     center/cover;
+  margin-bottom: 20px;
+}
+
+.xbox .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+}
+
+.xbox p,
+.carbon p {
+  margin: 10px 0 20px;
+}
+
+/* Carbon */
+.carbon {
+  height: 350px;
+  width: 100%;
+  background: url('./img/carbon.jpg') no-repeat center center/cover;
+}
+
+.carbon .content {
+  width: 55%;
+  padding: 100px 0 0 30px;
+}
+
+/* Follow */
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0 30px;
+}
+
+.follow p,
+.follow a {
+  margin-right: 10px;
 }
